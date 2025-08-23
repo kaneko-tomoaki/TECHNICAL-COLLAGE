@@ -1,2 +1,2 @@
-# KBCC
+TECHNICAL COLLAGE
 システム工学・情報システム
