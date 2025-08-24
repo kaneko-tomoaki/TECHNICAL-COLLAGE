@@ -110,7 +110,7 @@ footer{
 
 #main dl.grid-list{
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 120px 1fr;
   gap:20px 60px; /*行間  列間*/
 }
 #main dt{
