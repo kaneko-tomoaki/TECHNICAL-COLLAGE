@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  /*nth：n番目の意味 1st:first 2nd:second 3rd:third 4th:forth 5th:fifth 6th:sixth thは序数詞*/
+    p:nth-child(2n+1){
+      background-color: red;/*HTML家の長男h1とp3姉妹の中で*/
+    }
+    p:nth-of-type(2n+1){
+      background-color: yellow;/*HTML家のp3姉妹の中で*/
+    }
+  </style>
+</head>
+<body>
+  <h1>男</h1>
+  <p>女</p>
+  <p>女</p>
+  <p>女</p>
+</body>
+</html>
