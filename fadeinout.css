@@ -1,0 +1,9 @@
+/* ページ遷移フェードイン・フェードアウト用 */
+
+body {
+  opacity: 0;
+  transition: opacity 1s;
+}
+body.appear {
+  opacity: 1;
+}
